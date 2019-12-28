@@ -484,7 +484,6 @@ fi
 
 if ! version 18.04 "$DISTRO" 18.04.4; then
 msg_box "Ubuntu version $DISTRO must be between 18.04 - 18.04.4"
-    exit 1
 fi
 }
 
